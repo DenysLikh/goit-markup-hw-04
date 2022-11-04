@@ -2,12 +2,13 @@
 	/* colors */
 	--brand: #2196f3;
 	--brand-accent: #188ce8;
-	--hero-bgd: #2f303a;
+	--hero-bgd: #C4C4C4; 
 	--links-plus-buttons: #212121;
 	--contacts: #757575;
 	--team-and-selector-bgr: #f5f4fa;
 	--original-white: #ffffff;
 	--original-black: #000000;
+	--footer-bgd: #2f303a;
 }
 
 body {
@@ -174,7 +175,12 @@ address {
 /* end of flexes */
 
 .hero {
-	background: var(--hero-bgd);
+	max-width: 1600px;
+	margin: 0 auto;
+	background-color: var(--hero-bgd);
+	background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-images/Hero-Img-1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
 	padding: 200px 0;
 }
 
@@ -195,7 +201,7 @@ address {
 	min-height: 50px;
 	padding: 10px 32px;
 	font-family: inherit;
-	background: var(--brand);
+	background-color: var(--brand);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 	border-radius: 4px;
 	border: 0;
@@ -214,7 +220,7 @@ address {
 
 .hero-btn:hover,
 .hero-btn:focus {
-	background: var(--brand-accent);
+	background-color: var(--brand-accent);
 }
 
 .pointer {
@@ -269,7 +275,7 @@ address {
 	font-size: 16px;
 	line-height: 1.62;
 	text-align: center;
-	background: var(--team-and-selector-bgr);
+	background-color: var(--team-and-selector-bgr);
 	border-radius: 4px;
 	border: 0;
 }
@@ -278,7 +284,7 @@ address {
 .btn-portfolio:focus {
 	padding: 6px 25px;
 	color: var(--original-white);
-	background: var(--brand);
+	background-color: var(--brand);
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 	border-radius: 4px;
 }
@@ -381,7 +387,7 @@ address {
 }
 
 .team-cards {
-	background: var(--original-white);
+	background-color: var(--original-white);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 }
@@ -392,7 +398,7 @@ address {
 /* FOOTER --- */
 
 .footer {
-	background: var(--hero-bgd);
+	background-color: var(--footer-bgd);
 	padding: 60px 0;
 }
 
