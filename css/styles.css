@@ -255,15 +255,6 @@ address {
 	margin-bottom: 30px;
 }
 
-/* .boxforflex-portfolio-item {
-	justify-content: space-between;
-	flex-basis: calc((100% - 60px) / 3);	
-	row-gap: 30px;
-	column-gap: 30px;
-	display: flex;
-	flex-basis: calc((100% - 60px) / 3);
-} */
-
 /* end of portfolio flexes */
 
 .btn-portfolio {
@@ -328,6 +319,16 @@ address {
 	padding-bottom: 0;
 }
 
+.feature-icon-bgr {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#F5F4FA;
+	border-radius: 4px;
+	height: 120px;
+	margin-bottom: 30px;
+}
+
 .list-features {
 	max-width: 270px;
 }
@@ -376,6 +377,12 @@ address {
 	line-height: calc(19 / 16);
 	text-align: center;
 	color: var(--contacts);
+}
+
+.social-icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .team-cards-text-space {
