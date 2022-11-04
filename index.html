@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="uk">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Студія</title>
+		<!--normalize--> 
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+			integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!--fonts-->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<!--styles always down-->
+		<link rel="stylesheet" href="./css/styles.css"/>
+	</head>
+	<body>
+		<header class="header">
+			<div class="container boxforflex-header">
+				<nav class="boxforflex-nav">
+					<!--logo-->
+					<a href="./index.html" class="logo-web link">
+							<span>Web</span><span class="logo-studio-header link">Studio</span>
+					</a>
+					<ul class="list boxforflex-navlink">
+							<li><a href="./index.html" class="nav-link link active">Студія</a></li>
+							<li><a href="./portfolio.html" class="nav-link link">Портфоліо</a></li>
+							<li><a href="./index.html" class="nav-link link">Контакти</a></li>
+					</ul>
+				</nav>
+				<!--header contacts-->
+				<ul class="list boxforflex-header-contacts">
+					<li><a href="mailto:info@devstudio.com" class="header-contacts link">info@devstudio.com</a></li>
+					<li><a href="tel:+380961111111" class="header-contacts link">+38(096) 111-11-11</a></li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<!--hero-->
+			<section class="section hero">
+				<div class="container">
+					<h1 class="title boxforflex-hero-text">Ефективні рішення для вашого бізнесу</h1>
+					<button type="button" class="hero-btn pointer boxforflex-hero-btn"><span class="hero-btn-text">Замовити послугу</span></button>
+				</div>
+			</section> 
+			<!--4 features-->
+			<section class="section section-features">
+				<div class="container">
+					<h2 class="section-title visually-hidden">Наші переваги</h2>
+					<ul class="list boxforflex-sections">
+						<li class="list-features">
+							<h3 class="name-features">УВАГА ДО ДЕТАЛЕЙ</h3>
+							<p class="text-features">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+						</li>
+						<li class="list-features">
+							<h3 class="name-features">ПУНКТУАЛЬНІСТЬ</h3>
+							<p class="text-features">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+						</li>
+						<li class="list-features">
+							<h3 class="name-features">ПЛАНУВАННЯ</h3>
+							<p class="text-features">Так само консультація з широким активом значною мірою зумовлює.</p>
+						</li>
+						<li class="list-features">
+							<h3 class="name-features">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+							<p class="text-features">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!--what we do-->
+			<section class="section">
+				<div class="container">
+					<h2 class="section-title">Чим ми займаємося</h2>
+					<ul class="list boxforflex-sections">
+						<li>
+							<img src="./images/box-what-we-do-1.jpg" alt="Кодування" width="370" height="294" />
+						</li>
+						<li>
+							<img src="./images/box-what-we-do-2.jpg" alt="Оптимізація" width="370" height="294" />
+						</li>
+						<li>
+							<img src="./images/box-what-we-do-3.jpg" alt="Дизайн" width="370" height="294" />
+						</li>
+					</ul>
+				</div>
+			</section>
+			<!--team-->
+			<section class="team-section section">
+				<div class="container">
+					<h2 class="section-title">Наша команда</h2>
+					<ul class="list boxforflex-sections">
+						<li class="team-cards">
+							<img src="./images/img-igor.jpg" alt="1й член команди" width="270" height="260" />
+							<div class="team-cards-text-space"><h3 class="name-team">Ігор Дем'яненко</h3>
+							<p lang="en" class="text-team">Product Designer</p></div>
+						</li>
+						<li class="team-cards">
+							<img src="./images/img-olga.jpg" alt="2й член команди" width="270" height="260" />
+							<div class="team-cards-text-space"><h3 class="name-team">Ольга Рєпіна</h3>
+							<p lang="en" class="text-team">Frontend Developer</p></div>
+						</li>
+						<li class="team-cards">
+							<img src="./images/img-mikola.jpg" alt="3й член команди" width="270" height="260" />
+							<div class="team-cards-text-space"><h3 class="name-team">Микола Тарасов</h3>
+							<p lang="en" class="text-team">Marketing</p></div>
+						</li>
+						<li class="team-cards">
+							<img src="./images/img-mihailo.jpg" alt="4й член команди" width="270" height="260" />
+							<div class="team-cards-text-space"><h3 class="name-team">Михайло Єрмаков</h3>
+							<p lang="en" class="text-team">UI Designer</p></div>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<!--logo text-->
+				<a href="./index.html" class="footer-logo-text logo-web logo-web-footer link">
+					<span>Web</span><span class="logo-studio-footer link">Studio</span>
+				</a>
+				<!--address links-->
+				<address>
+					<ul class="list">
+						<li>
+							<a
+								href="https://goo.gl/maps/ZYpvRGQHk616j4x77"
+								target="_blank"
+								rel="noopener noreferrer nofollow"
+								class="link address"
+							>
+								м. Київ, пр-т Лесі Українки, 26
+							</a>
+						</li>
+						<li class="list-address">
+							<a href="mailto:info@devstudio.com" class="footer-contacts link">info@devstudio.com</a>
+						</li>
+						<li class="list-address">
+							<a href="tel:+380961111111" class="footer-contacts link">+38(096) 111-11-11</a>
+						</li>
+					</ul>
+				</address>
+			</div>
+		</footer>
+	</body>
+</html>
