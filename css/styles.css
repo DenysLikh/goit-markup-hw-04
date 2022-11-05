@@ -9,7 +9,7 @@
 	--original-white: #ffffff;
 	--original-black: #000000;
 	--footer-bgd: #2f303a;
-	--social-icon: #AFB1B8;
+	--icon: #AFB1B8;
 }
 
 body {
@@ -398,7 +398,7 @@ address {
 }
 
 .social-icon {
-	fill: var(--social-icon);
+	fill: var(--icon);
 }
 
 .social-link:hover,
@@ -409,11 +409,6 @@ address {
 .social-link:hover .social-icon,
 .social-link:focus .social-icon {
 	fill: var(--original-white);
-}
-
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
-	
 }
 
 .team-cards-text-space {
@@ -431,6 +426,36 @@ address {
 }
 
 /* TEAM END--- */
+/* ------------*/
+
+/* CLIENTS --- */
+
+.client-logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 170px;
+	height: 92px;
+	padding: 16px 32px;
+	border: 1px solid var(--icon);
+	border-radius: 4px;
+}
+
+.client-icon {
+	fill: var(--icon);
+}
+
+.client-logo:hover,
+.client-logo:focus {
+	border: 1px solid var(--brand);
+}
+
+.client-logo:hover .client-icon,
+.client-logo:focus .client-icon {
+	fill: var(--brand);
+}
+
+/* CLIENTS END--- */
 /* ------------*/
 
 /* FOOTER --- */
