@@ -9,6 +9,7 @@
 	--original-white: #ffffff;
 	--original-black: #000000;
 	--footer-bgd: #2f303a;
+	--social-icon: #AFB1B8;
 }
 
 body {
@@ -383,10 +384,40 @@ address {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	gap: 10px;
+	margin-bottom: 30px;
+}
+
+.social-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 44px;
+	width: 44px;
+	border-radius: 50%; 
+}
+
+.social-icon {
+	fill: var(--social-icon);
+}
+
+.social-link:hover,
+.social-link:focus {
+	background-color: var(--brand);
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+	fill: var(--original-white);
+}
+
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+	
 }
 
 .team-cards-text-space {
-	padding: 30px 50px;
+	padding: 30px 50px 16px;
 }
 
 .team-section {
