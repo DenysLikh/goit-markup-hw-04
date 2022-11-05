@@ -397,7 +397,7 @@ address {
 	border-radius: 50%; 
 }
 
-.social-icon {
+.icon {
 	fill: var(--icon);
 }
 
@@ -406,8 +406,8 @@ address {
 	background-color: var(--brand);
 }
 
-.social-link:hover .social-icon,
-.social-link:focus .social-icon {
+.social-link:hover .icon,
+.social-link:focus .icon {
 	fill: var(--original-white);
 }
 
@@ -441,17 +441,13 @@ address {
 	border-radius: 4px;
 }
 
-.client-icon {
-	fill: var(--icon);
-}
-
 .client-logo:hover,
 .client-logo:focus {
 	border: 1px solid var(--brand);
 }
 
-.client-logo:hover .client-icon,
-.client-logo:focus .client-icon {
+.client-logo:hover .icon,
+.client-logo:focus .icon {
 	fill: var(--brand);
 }
 
@@ -460,19 +456,26 @@ address {
 
 /* FOOTER --- */
 
+.footer-flex {
+	display: flex;
+	align-items: flex-start;
+}
+
 .footer {
 	background-color: var(--footer-bgd);
 	padding: 60px 0;
 }
 
 .footer-logo-text {
-	display: block;
+	display: flex;
+	align-items: baseline;
 	margin-bottom: 20px;
 }
 
 .logo-web-footer {
 	padding-top: 0;
 	padding-bottom: 0;
+	margin-right: 156px;
 }
 
 .logo-studio-footer {
@@ -497,4 +500,25 @@ address {
 .footer-contacts:hover,
 .footer-contacts:focus {
 	color: var(--brand);
+}
+
+.footer-cta {
+	align-items: baseline;
+	color: var(--original-white);
+}
+
+.footer-contacts-space {
+	margin-right: 102px;
+}
+
+.footer-social-icons {
+	margin-bottom: 0;
+}
+
+.footer-icon {
+	fill: var(--original-white);
+}
+
+.footer-link {
+	background-color: rgba(255, 255, 255, 0.1);
 }
