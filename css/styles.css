@@ -281,11 +281,9 @@ address {
 
 .btn-portfolio:hover,
 .btn-portfolio:focus {
-	padding: 6px 25px;
 	color: var(--original-white);
 	background-color: var(--brand);
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-	border-radius: 4px;
 }
 
 .portfolio-item:hover,
@@ -474,7 +472,7 @@ address {
 
 .footer-flex {
 	display: flex;
-	align-items: flex-start;
+	gap: 95px;
 }
 
 .footer {
@@ -491,7 +489,7 @@ address {
 .logo-web-footer {
 	padding-top: 0;
 	padding-bottom: 0;
-	margin-right: 156px;
+	margin-right: 0;
 }
 
 .logo-studio-footer {
@@ -519,16 +517,14 @@ address {
 }
 
 .footer-cta {
-	align-items: baseline;
 	color: var(--original-white);
-}
-
-.footer-contacts-space {
-	margin-right: 95px;
+	margin-top: 12px;
+	margin-bottom: 20px;
 }
 
 .footer-social-icons {
 	margin-bottom: 0;
+	justify-content: left;
 }
 
 .footer-icon {
